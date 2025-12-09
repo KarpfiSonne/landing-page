@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-html {
-    padding: 0;
+h1 {
     margin: 0;
 }
 
-h1 {
+h2 {
     margin: 0;
 }
 
@@ -24,7 +23,7 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 25px;
+    gap: 50px;
 }
 
 a {
@@ -54,8 +53,8 @@ a {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    gap: 50px;
-    padding: 50px 250px 200px 250px;
+    gap: 75px;
+    padding: 25px 250px 100px 250px;
 }
 
 .header-image {
@@ -99,7 +98,8 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 48px;
+    padding: 100px;
+    gap: 50px;
 }
 
 .team-header {
@@ -124,4 +124,24 @@ a {
 
 .karpfen {
     max-width: 200px;
+}
+
+.testimonial {
+    background-color: #E5E7FB;
+    padding: 50px 250px 50px 250px;;
+    text-align: left;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.customer {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: right;
 }
