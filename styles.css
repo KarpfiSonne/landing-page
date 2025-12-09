@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+body {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    background-color: #1F2937;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#hero {
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+#buttonone {
+    border-radius: 8px;
+    border: 0px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 250px 200px 250px;
+}
+
+.header-image {
+    display: block;
+    min-width: 500px;
+    max-height: 333px;
+    height: auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    font-size: 18px;
+    color: #E5E7FB;
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    max-width: 500px;
+    font-size: 18px;
+    color: #E5E7FB;
+}
+
+.team {
+    background-color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px;
+}
+
+.team-header {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.team-karpfen {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: #1F2937;
+    text-align: center;
+    font-size: 18px;
+}
+
+.team-pic {
+    border: 5px solid #3882F6;
+    border-radius: 16px 0px;
+}
+
+.karpfen {
+    max-width: 200px;
+}
