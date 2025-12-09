@@ -8,6 +8,12 @@ h2 {
     margin: 0;
 }
 
+h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 900;
+}
+
 body {
     font-family: Roboto, "Helvetica Neue", sans-serif;
     height: 100vh;
@@ -39,14 +45,23 @@ a {
     color: #F9FAF8;
 }
 
-#buttonone {
+button {
     border-radius: 8px;
     border: 0px;
-    background-color: #3882F6;
-    color: #F9FAF8;
     padding: 10px 15px;
     font-size: 18px;
     font-weight: 900;
+}
+
+#buttonone {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+#buttontwo {
+    background-color: transparent;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
 }
 
 .header {
@@ -91,6 +106,10 @@ a {
     max-width: 500px;
     font-size: 18px;
     color: #E5E7FB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
 }
 
 .team {
@@ -118,7 +137,7 @@ a {
 }
 
 .team-pic {
-    border: 5px solid #3882F6;
+    border: 4px solid #3882F6;
     border-radius: 16px 0px;
 }
 
@@ -128,7 +147,7 @@ a {
 
 .testimonial {
     background-color: #E5E7FB;
-    padding: 50px 250px 50px 250px;;
+    padding: 50px 500px 50px 500px;
     text-align: left;
 }
 
@@ -144,4 +163,25 @@ a {
     font-size: 24px;
     font-weight: 900;
     text-align: right;
+}
+
+.cta-container {
+    background-color: #F9FAF8;
+    padding: 50px 250px 50px 250px;
+}
+
+.cta {
+    border-radius: 8px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 250px 50px 250px;
+    font-size: 18px;
+}
+
+.footer {
+    color: #F9FAF8;
+    text-align: center;
 }
